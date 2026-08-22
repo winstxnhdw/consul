@@ -21,3 +21,5 @@ jobs:
     uses: winstxnhdw/actions/.github/workflows/spaces-warmer.yml@main
     with:
       path: /v1/status/leader
+    secrets:
+      token: ${{ secrets.HF_TOKEN }}
